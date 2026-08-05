@@ -7,3 +7,6 @@ pandas
 plotly
 
 pytest
+
+# web app:
+flask
