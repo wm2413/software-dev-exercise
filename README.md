@@ -47,8 +47,10 @@ Create a local ".env" file and store your environment variable in there:
 
 ```sh
 # this is the ".env" file...
-
-ALPHAVANTAGE_API_KEY="______________"
+#option a) run directly in sl using the following command
+ALPHAVANTAGE_API_KEY="______________" python -m app.stocks
+#option b) create env. file and put api key there and then run the app
+python -m app.stocks
 
 
 # also tell flask where our web app is defined:
